@@ -35,6 +35,7 @@ export default function Footer() {
               <ul className="space-y-2 font-inter text-base">
                 <li><a href="#" className="hover:underline">About us</a></li>
                 <li><a href="#" className="hover:underline">How It Works</a></li>
+                <li><Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link></li>
               </ul>
             </div>
             <div className="flex flex-col items-start w-1/2">

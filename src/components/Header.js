@@ -3,6 +3,7 @@
 import Image from "next/image";
 import useIsMobile from "../hooks/useIsMobile";
 import Link from "next/link";
+import { FiShield } from "react-icons/fi";
 
 export default function Header() {
   const { isMobile, mounted } = useIsMobile();
@@ -26,6 +27,13 @@ export default function Header() {
           </div>
         </Link>
       </div>
+      <div className="flex items-center">
+        <Link href="/privacy-policy" className="flex items-center gap-2 text-[16px] md:text-[18px] font-inter font-semibold text-[#c8e45c] hover:bg-[#eaf7c2] hover:text-black px-4 py-2 rounded transition-colors duration-200">
+          <FiShield className="text-[20px] md:text-[22px]" />
+          Privacy Policy
+        </Link>
+      </div>
+      {/*
       <div className="flex items-center gap-7">
         <a href="#" aria-label="X (Twitter)">
           <Image src="/x-logo.png" alt="X Logo" width={isMobile ? 16 : 20} height={isMobile ? 16 : 20} />
@@ -40,6 +48,7 @@ export default function Header() {
           <Image src="/tiktok-logo.png" alt="TikTok Logo" width={isMobile ? 16 : 20} height={isMobile ? 16 : 20} />
         </a>
       </div>
+      */}
     </header>
   );
 } 

@@ -16,15 +16,8 @@
   --font-inter: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
+  background: #F2F4F6;
   color: var(--foreground);
   font-family: var(--font-inter), 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;

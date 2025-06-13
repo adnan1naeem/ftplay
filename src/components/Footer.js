@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Mobile: Explore + Social side by side, left-aligned */}
+          {/* Mobile: Explore + App Download side by side, left-aligned */}
           <div className="flex flex-row gap-8 mt-6 mb-1 w-full md:hidden">
             <div className="flex flex-col items-start w-1/2">
               <h3 className="text-[20px] font-bold text-[#c8e45c] font-dm-sans mb-1">Explore</h3>
@@ -39,25 +39,20 @@ export default function Footer() {
               </ul>
             </div>
             <div className="flex flex-col items-start w-1/2">
-              <h3 className="text-[20px] font-bold text-[#c8e45c] font-dm-sans mb-1">Social</h3>
-              <div className="flex flex-row gap-4 mt-1">
-                <a href="#" aria-label="X (Twitter)" className="hover:opacity-80">
-                  <Image src="/x-logo.png" alt="X Logo" width={24} height={24} />
+              <h3 className="text-[20px] font-bold text-[#c8e45c] font-dm-sans mb-1">Get the App</h3>
+              <p className="text-sm font-inter mb-2">Download FT Play for the best experience:</p>
+              <div className="flex flex-col gap-2">
+                <a href="https://dummy-appstore-link.com" target="_blank" rel="noopener noreferrer">
+                  <Image src="/hero-section-app-store-image.png" alt="App Store" width={120} height={36} className="w-[120px] h-auto" />
                 </a>
-                <a href="#" aria-label="Instagram" className="hover:opacity-80">
-                  <Image src="/insta-logo.png" alt="Instagram Logo" width={24} height={24} />
-                </a>
-                <a href="#" aria-label="Facebook" className="hover:opacity-80">
-                  <Image src="/fb-logo.png" alt="Facebook Logo" width={24} height={24} />
-                </a>
-                <a href="#" aria-label="TikTok" className="hover:opacity-80">
-                  <Image src="/tiktok-logo.png" alt="TikTok Logo" width={24} height={24} />
+                <a href="https://dummy-googleplay-link.com" target="_blank" rel="noopener noreferrer">
+                  <Image src="/hero-section-google-play-image.png" alt="Google Play" width={120} height={36} className="w-[120px] h-auto" />
                 </a>
               </div>
             </div>
           </div>
 
-          {/* Desktop: Explore Gorengan and Social with large gap */}
+          {/* Desktop: Explore Gorengan and App Download with large gap */}
           <div className="hidden md:flex md:flex-col md:col-span-1 md:pl-[260px]">
             <h3 className="text-[20px] font-bold mb-2 text-[#c8e45c] font-dm-sans">Explore Gorengan</h3>
             <ul className="space-y-2 font-inter text-base">
@@ -67,19 +62,14 @@ export default function Footer() {
             </ul>
           </div>
           <div className="hidden md:flex md:flex-col md:col-span-1 md:pl-[260px]">
-            <h3 className="text-[20px] font-bold mb-2 text-[#c8e45c] font-dm-sans">Social</h3>
-            <div className="flex flex-row gap-4 mt-1">
-              <a href="#" aria-label="X (Twitter)" className="hover:opacity-80">
-                <Image src="/x-logo.png" alt="X Logo" width={24} height={24} />
+            <h3 className="text-[20px] font-bold mb-2 text-[#c8e45c] font-dm-sans">Get the App</h3>
+            <p className="text-sm font-inter mb-2">Download FT Play for the best experience:</p>
+            <div className="flex flex-col gap-2">
+              <a href="https://dummy-appstore-link.com" target="_blank" rel="noopener noreferrer">
+                <Image src="/hero-section-app-store-image.png" alt="App Store" width={120} height={36} className="w-[120px] h-auto" />
               </a>
-              <a href="#" aria-label="Instagram" className="hover:opacity-80">
-                <Image src="/insta-logo.png" alt="Instagram Logo" width={24} height={24} />
-              </a>
-              <a href="#" aria-label="Facebook" className="hover:opacity-80">
-                <Image src="/fb-logo.png" alt="Facebook Logo" width={24} height={24} />
-              </a>
-              <a href="#" aria-label="TikTok" className="hover:opacity-80">
-                <Image src="/tiktok-logo.png" alt="TikTok Logo" width={24} height={24} />
+              <a href="https://dummy-googleplay-link.com" target="_blank" rel="noopener noreferrer">
+                <Image src="/hero-section-google-play-image.png" alt="Google Play" width={120} height={36} className="w-[120px] h-auto" />
               </a>
             </div>
           </div>
